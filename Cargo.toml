@@ -13,5 +13,5 @@ enum_derive = "0.1.7"
 custom_derive = "0.1.7"
 nix = "0.17.0"
 
-[target.'cfg(freebsd)'.dependencies]
+[target.'cfg(target_os = "freebsd")'.dependencies]
 jail = "0.1.1"
